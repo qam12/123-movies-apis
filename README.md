@@ -4,14 +4,11 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+- [UML Diagrams](#UML)
+- [Issues](#issues)
 - [Endpoints](#endpoints)
-- [Authentication](#authentication)
-- [Examples](#examples)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
+- [Response Example](#responseExample)
+- [Installation](#installation)
 
 ## Introduction
 
@@ -29,23 +26,32 @@ Our API services play a pivotal role in supporting various backend functionaliti
 - Search your movie with using a keywords.
 - Browsing paid movies in free on our site.
 
+## UML Diagrams
+
+#### Class Diagrams
+<img width="300" alt="Screenshot 2023-11-27 at 12 29 54 AM" src="https://github.com/qam12/123-movies-apis/assets/31346514/3dd88a27-b291-45a4-bb58-db11a9afa7c8">
+
+#### Architecture Diagrams
+<img width="500" alt="Screenshot 2023-11-27 at 1 24 48 AM" src="https://github.com/qam12/123-movies-apis/assets/31346514/1b4b2e68-087d-4798-bfef-f395dc753a0d">
+
 ## Endpoints
 
 | Endpoint | Description | Method |
 | --------------- | --------------- | --------------- |
-| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
-| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
-| Row 3, Col 1    | Row 3, Col 2    | Row 3, Col 3    |
+| /user/signup    | use for register user    | POST |
+| /user/login    | use for login user    | POST |
 
 ## Response Example
 
-{
-  "method": "GET",
-  "url": "/api/endpoint1",
-  "headers": {
-    "Authorization": "my-access-token"
-  }
-}
+`{ "method": "GET", 
+"url": "/api/endpoint1", 
+"headers": { "Authorization": "my-access-token" } }`
+
+## Response Example
+
+- Pagination is not working on api end.
+- Search takes to much time to load data.
+- Player is unable to play some movies from list.
 
 ## Installation
 
@@ -68,5 +74,6 @@ node index.js
 - npm run lint:fix
 - npm run format:check
 - npm run format:fix:all
+
 
 
