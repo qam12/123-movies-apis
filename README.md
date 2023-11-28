@@ -28,7 +28,7 @@ Our API services play a pivotal role in supporting various backend functionaliti
 
 ## UML Diagrams
 
-#### Class Diagrams
+#### Usecase Diagrams
 <img width="300" alt="Screenshot 2023-11-27 at 12 29 54 AM" src="https://github.com/qam12/123-movies-apis/assets/31346514/3dd88a27-b291-45a4-bb58-db11a9afa7c8">
 
 #### Architecture Diagrams
